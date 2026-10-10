@@ -4,13 +4,12 @@ Videos and CCTV footage capture people who never agreed to be recorded. This app
 
 What it does
 Blurs people in a video: upload a video and every detected person gets blurred.
+
 Encrypts original frames: a random samole of frames (you choose how many) is encrypted, each with its own key.
+
 Reveal onr person: pick a frame, pick a person, and only that person is shown again.
+
 Live mode: the same blur on your webcam or an RTSP/CCTV stream.
-Run it
-bash
-pip install -r requirements.txt
-streamlit run app.py
 
 Built with
 
