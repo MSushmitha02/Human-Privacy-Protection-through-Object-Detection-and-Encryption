@@ -1,0 +1,20 @@
+# Runtime output - contains encryption keys and user footage, never commit
+temp/
+encrypted_frames/
+metadata/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Model weights are downloaded automatically by Ultralytics
+*.pt
+
+# Large media
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.zip
